@@ -12,3 +12,14 @@ pom.xml.asc
 .lein-failures
 .nrepl-port
 .cpcache/
+/*.log
+/target
+/*-init.clj
+/resources/public/js/compiled
+out
+
+.idea/
+.lein-repl-history
+.rebel_readline_history
+gainz-goblin.iml
+resources/js/compiled/*

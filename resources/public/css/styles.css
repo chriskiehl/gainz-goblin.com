@@ -1,0 +1,116 @@
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.current-cycle-card {
+    width: 100%;
+}
+
+.app-bar {
+    width: 100%;
+    height: 64px;
+    background-color: #4caf50;
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 0 12px;
+}
+
+.hamburger {
+    padding-right: 20px;
+}
+
+.card-margin {
+    margin-bottom: 20px;
+}
+
+
+.card-margin:first-of-type {
+    margin-top: 20px;
+}
+
+.container {
+    padding: 0 12px;
+}
+
+
+.primary-lift-card {
+    display: flex;
+    box-sizing: border-box;
+    padding: 12px;
+}
+
+.primary-lift-card-body {
+    flex: 1 0 auto;
+}
+
+.primary-lift-title {
+    font-size: 20px;
+    margin: 0;
+}
+
+.primary-lift-rep-scheme {
+}
+
+.primary-lift-action-line {
+    padding: 12px 0 0 0;
+    display: flex;
+    justify-content: end;
+}
+
+
+.pagination-hud {
+    flex: 0 0 20px;
+    border: 1px solid black;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.new-cycle-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
+.modal-backing {
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+}
+
+.modal {
+    position: absolute;
+    width: 90%;
+    z-index: 11;
+    margin-top: 15%;
+}
+
+.empty-state {
+    margin-top: 24px;
+}
+
+.empty-state-title {
+    margin: 0;
+}
+
+.bottom-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+}
+
+.green-background {
+    background-color: rgb(76, 175, 80);
+}
+
