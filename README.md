@@ -3,7 +3,7 @@
 A quick and dirty no frills weekend Hackathon project for tracking [Wendler 1.2](https://www.t-nation.com/workouts/beyond-531-program-1-2) cycles. 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/1408720/52935196-9a6df680-330d-11e9-8d63-4f06f08d2e10.png">
+  <img src="https://user-images.githubusercontent.com/1408720/52937979-57178600-3315-11e9-8fb3-aae02ed66e17.png">
 </p>
 
 While there are lots of [5/3/1](https://www.t-nation.com/workouts/531-how-to-build-pure-strength) tracking apps, I couldn't find one which ran the 1.2 flavor, which is my prefered flavor, and thus here we are: [gains-goblin.com](http://gainz-goblin.com/).
