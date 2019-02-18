@@ -1,22 +1,47 @@
-# gainz-goblin
+# Gainz Goblin
 
-A [re-frame](https://github.com/Day8/re-frame) application designed to ... well, that part is up to you.
+A quick and dirty no frills weekend Hackathon project for tracking [Wendler 1.2](https://www.t-nation.com/workouts/beyond-531-program-1-2) cycles. 
 
-## Development Mode
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/1408720/52935196-9a6df680-330d-11e9-8d63-4f06f08d2e10.png">
+</p>
 
-### Run application:
+While there are lots of [5/3/1](https://www.t-nation.com/workouts/531-how-to-build-pure-strength) tracking apps, I couldn't find one which ran the 1.2 flavor, which is my prefered flavor, and thus here we are: [gains-goblin.com](http://gainz-goblin.com/).
+
+**Features!**
+
+ * No Customization!
+ * Only does one thing! 
+ * Green color schemes!
+ * solid name!
+ * good logo! 
+ * Increases your 1RM each cycle for maximum gainz 
+ * No ability to export data! 
+ * No ability to back-up data! 
+ * No ability to transfer data between devices (only uses localStorage)!
+
+**Q:** Whoa, whoa, whoa! That sounds sweet! Where can I try it? 
+**A:** Try it here, friendo: [gainz-goblin.com](http://gainz-goblin.com).
+
+**Q:** Whoa, whoa, whoa! That logo is sick! Who made it?!
+**A:** Sick goblin art via professional cool person [Morgan Zion](http://www.morganzion.co/hello-2/)
+
+
+
+## Development
 
 ```
 lein clean
 lein figwheel dev
 ```
 
-Figwheel will automatically push cljs changes to the browser.
+Forward the local port so the websocket can connect
 
-Wait a bit, then browse to [http://localhost:3449](http://localhost:3449).
+```
+ssh -L 3449:localhost:3000 devbox@192.168.0.107
+```
 
 ## Production Build
-
 
 To compile clojurescript to javascript:
 
@@ -24,3 +49,8 @@ To compile clojurescript to javascript:
 lein clean
 lein cljsbuild once min
 ```
+
+## Deployment
+
+Whole thing is just hosted in a public bucket on S3. Deploymeny is just copying the index.html, css, and js files. 
+
